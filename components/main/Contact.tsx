@@ -59,7 +59,7 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
       >
         <motion.h1
           variants={variants}
-          className=" text-4xl md:text-6xl font-bold leading-[88px] w-[10ch]"
+          className=" text-4xl md:text-6xl font-bold leading-[45px] md:leading-[88px] w-[10ch]"
         >
           Let&apos;s work together
         </motion.h1>
@@ -73,10 +73,10 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
           <p className=" text-3xl font-bold">Mail</p>
           <span>hassan.creative@gmail.com</span>
         </motion.div>
-        <motion.div className="item">
+        {/* <motion.div className="item">
           <p className=" text-3xl font-bold">Address</p>
           <span>Eskilstuna, Sweden</span>
-        </motion.div>
+        </motion.div> */}
         <motion.div className="item">
           <p className=" text-3xl font-bold">Phone</p>
           <span>+46 73-725 79 71</span>

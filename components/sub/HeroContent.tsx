@@ -14,7 +14,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full md:max-w-[1440px] z-[20] mx-auto"
+      className="flex flex-row items-center justify-center px-5 md:px-20 mt-40 w-full md:max-w-[1440px] z-[20] mx-auto"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -28,7 +28,7 @@ const HeroContent = () => {
         </motion.div>
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl leading-[1.4] font-bold text-white max-w-[700px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-3xl md:text-6xl leading-[1.4] font-bold text-white max-w-[700px] w-auto h-auto"
         >
           <span>
             Dedicated to
@@ -55,7 +55,7 @@ const HeroContent = () => {
           <motion.a
             href="#projects"
             variants={slideInFromLeft(1)}
-            className="py-2 px-10 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+            className=" text-sm md:text-base py-2 px-10 button-primary text-center text-white cursor-pointer rounded-lg"
           >
             My Projects!
           </motion.a>
@@ -63,7 +63,7 @@ const HeroContent = () => {
             href="/assets/CV_Hassen_Ahmed.pdf"
             target="_blank"
             variants={slideInFromLeft(1)}
-            className="py-2 px-10 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+            className="text-sm md:text-base py-2 px-10 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
           >
             Download CV
           </motion.a>
@@ -71,7 +71,7 @@ const HeroContent = () => {
       </div>
       <motion.div
         variants={slideInFromRight(0.8)}
-        className=" w-full h-full flex justify-center items-center"
+        className=" w-full h-full md:flex justify-center items-center hidden md:block"
       >
         <Image
           src="/assets/my_photo_2.png"
