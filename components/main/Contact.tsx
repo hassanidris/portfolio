@@ -61,7 +61,7 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
           variants={variants}
           className=" text-4xl md:text-6xl font-bold leading-[88px] w-[10ch]"
         >
-          Let's work together
+          Let&apos;s work together
         </motion.h1>
         <p className="mt-3">
           I am deeply passionate about my work and eagerly dive into the realms
