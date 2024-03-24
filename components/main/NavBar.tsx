@@ -4,26 +4,26 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <div className=" w-full h-[65px] fixed top-0 shadow-lg shadow-[#2a0e61]/50 bg-[#030001417] backdrop-blur-md z-50 p-10 mx-auto">
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
+    <div className=" fixed top-0 z-50 mx-auto h-[65px] w-full bg-[#030001417] p-10 shadow-lg shadow-[#2a0e61]/50 backdrop-blur-md">
+      <div className="m-auto flex h-full w-full flex-row items-center justify-between px-[10px]">
         <a
           href="#about-me"
-          className="h-auto w-auto flex flex-row items-center"
+          className="flex h-auto w-auto flex-row items-center"
         >
           <Image
             src="/assets/logo.svg"
             alt="logo"
             width={40}
             height={40}
-            className="cursor-pointer hover:animate-slowspin text-white"
+            className="hover:animate-slowspin cursor-pointer text-white"
           />
 
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
+          <span className="ml-[10px] hidden font-bold text-gray-300 md:block">
             Hassen Ahmed
           </span>
         </a>
-        <div className="h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] gap-6 md:gap-16 px-[20px] py-[10px] rounded-full text-gray-200">
+        <div className="flex h-full flex-row items-center justify-between md:mr-20">
+          <div className="flex h-auto w-full items-center justify-between gap-6 rounded-full border border-[#7042f861] bg-[#0300145e] px-[20px] py-[10px] text-gray-200 md:gap-16">
             <a href="#about-me" className="cursor-pointe hover:underline">
               Home
             </a>
@@ -40,24 +40,6 @@ const NavBar = () => {
               Contacts
             </a>
           </div>
-        </div>
-        <div className="flex flex-row gap-5">
-          {Socials.map((social) => (
-            <a
-              href={social.url}
-              target="_blank"
-              rel="noreferrer"
-              key={social.name}
-            >
-              <Image
-                src={social.src}
-                alt={social.name}
-                key={social.name}
-                width={24}
-                height={24}
-              />
-            </a>
-          ))}
         </div>
       </div>
     </div>

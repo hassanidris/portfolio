@@ -64,10 +64,13 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
           Let&apos;s work together
         </motion.h1>
         <p className="mt-3">
-          I am deeply passionate about my work and eagerly dive into the realms
-          of front-end development and UX design. While acknowledging my need to
-          catch up with the latest technologies, I am a fast learner and eagerly
-          strive to upgrade my skills for the future.
+          With a previous background experience in UI/UX design, I have now
+          decided to expand my knowledge to become a Frontend Developer and I am
+          looking for an internship. I am deeply passionate about my work while
+          always eager to keep up to date with latest technologys within the
+          industry. I am a fast learner and very goal orientated and with my
+          background and knowledge I hope to become a great asset to your
+          company.
         </p>
         <motion.div className="item">
           <p className=" text-3xl font-bold">Mail</p>

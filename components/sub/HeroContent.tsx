@@ -8,36 +8,37 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import { Socials } from "@/constants";
 
 const HeroContent = () => {
   return (
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-5 md:px-20 mt-40 w-full md:max-w-[1440px] z-[20] mx-auto"
+      className="z-[20] mx-auto mt-40 flex w-full flex-row items-center justify-center px-5 md:max-w-[1440px] md:px-20"
     >
-      <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+      <div className="m-auto flex h-full w-full flex-col justify-center gap-5 text-start">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+          className="Welcome-box border border-[#7042f88b] px-[7px] py-[8px] opacity-[0.9]"
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
+          <SparklesIcon className="mr-[10px] h-5 w-5 text-[#b49bff]" />
           <h1 className="welcome-text text-[13px] text-white">
             Frontend Developer Portfolio
           </h1>
         </motion.div>
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-3xl md:text-6xl leading-[1.4] font-bold text-white max-w-[700px] w-auto h-auto"
+          className="mt-6 flex h-auto w-auto max-w-[700px] flex-col gap-6 text-3xl font-bold leading-[1.4] text-white md:text-6xl"
         >
           <span>
             Dedicated to
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">
               {" "}
               optimizing{" "}
             </span>
             projects and
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">
               {" "}
               eager{" "}
             </span>
@@ -46,16 +47,16 @@ const HeroContent = () => {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[600px]"
+          className="my-5 max-w-[600px] text-lg text-gray-400"
         >
           I&apos;m a Front End Developer with an eye on UI/UX. Check out my
           projects and skills.
         </motion.p>
-        <div className=" flex gap-4">
+        <div className=" mt-10 flex items-center justify-center gap-4">
           <motion.a
             href="#projects"
             variants={slideInFromLeft(1)}
-            className=" text-sm md:text-base py-2 px-10 button-primary text-center text-white cursor-pointer rounded-lg"
+            className=" button-primary cursor-pointer rounded-lg px-10 py-2 text-center text-sm text-white md:text-base"
           >
             My Projects!
           </motion.a>
@@ -63,15 +64,34 @@ const HeroContent = () => {
             href="/assets/CV_Hassen_Ahmed.pdf"
             target="_blank"
             variants={slideInFromLeft(1)}
-            className="text-sm md:text-base py-2 px-10 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+            className="button-primary max-w-[200px] cursor-pointer rounded-lg px-10 py-2 text-center text-sm text-white md:text-base"
           >
             Download CV
           </motion.a>
+          <motion.div className="flex flex-row gap-5">
+            {Socials.map((social) => (
+              <motion.a
+                variants={slideInFromLeft(1)}
+                href={social.url}
+                target="_blank"
+                rel="noreferrer"
+                key={social.name}
+              >
+                <Image
+                  src={social.src}
+                  alt={social.name}
+                  key={social.name}
+                  width={30}
+                  height={30}
+                />
+              </motion.a>
+            ))}
+          </motion.div>
         </div>
       </div>
       <motion.div
         variants={slideInFromRight(0.8)}
-        className=" w-full h-full md:flex justify-center items-center hidden md:block"
+        className=" hidden h-full w-full items-center justify-center md:flex"
       >
         <Image
           src="/assets/my_photo_2.png"

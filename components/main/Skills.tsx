@@ -12,11 +12,11 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center justify-center gap-3 h-screen relative overflow-hidden p-5"
+      className="relative flex h-screen flex-col items-center justify-center gap-3 overflow-hidden p-5"
       // style={{ transform: "scale(0.9" }}
     >
       <SkillText />
-      <div className=" flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className=" mt-4 flex flex-row flex-wrap items-center justify-center gap-5">
         {Frontend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -28,7 +28,7 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="mt-4 flex flex-row flex-wrap items-center justify-center gap-5">
         {Backend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -40,7 +40,7 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="mt-4 flex flex-row flex-wrap items-center justify-center gap-5">
         {Design_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -52,7 +52,7 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="mt-4 flex flex-row flex-wrap items-center justify-center gap-5">
         {Other_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -64,10 +64,10 @@ const Skills = () => {
           />
         ))}
       </div>
-      <div className="w-full h-full absolute">
-        <div className="w-full h-full z-[-10] opacity-15 absolute flex items-center justify-center bg-cover bg-center">
+      <div className="absolute h-full w-full">
+        <div className="absolute z-[-10] flex h-full w-full items-center justify-center bg-cover bg-center opacity-15">
           <video
-            className="w-full h-auto"
+            className="h-auto w-full"
             preload="false"
             playsInline
             loop
