@@ -4,7 +4,7 @@ import HeroContent from "../sub/HeroContent";
 const Hero = () => {
   return (
     <div
-      className=" md:relative flex flex-col justify-center items-center h-full md:h-screen w-full mx-auto"
+      className=" mx-auto flex h-full w-full max-w-[80rem] flex-col items-center justify-center md:relative md:h-screen"
       id="about-me"
     >
       {/* <video
