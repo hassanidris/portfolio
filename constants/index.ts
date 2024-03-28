@@ -5,6 +5,7 @@ import hyperFlix from "@/public/assets/screenshot-hyperflix-site.netlify.png";
 import miljonbemanning from "@/public/assets/screenshot-hassanidris.github.png";
 import nesmaHolding from "@/public/assets/screenshot-nesma.github.png";
 import whoBrowseTheWeb from "@/public/assets/screenshot-whobrowsesthewebg7.png";
+import todo_app from "@/public/assets/screenshot-todo-website.vercel.png";
 
 export const Skill_data = [
   {
@@ -279,8 +280,8 @@ export const projectsData = [
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
     tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: twoPac,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/hassanidris/2pac-website",
+    previewUrl: "https://2pac-website.netlify.app/",
   },
   {
     title: "Flappy Bird Clone",
@@ -288,17 +289,17 @@ export const projectsData = [
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: flappyBird,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/hassanidris/flappy-bird",
+    previewUrl: "https://hassanidris.github.io/flappy-bird/",
   },
   {
     title: "HyperFlix Website",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "JavaScript", "Tailwind", "Firebase"],
+    tags: ["React", "JavaScript", "Tailwindcss", "Firebase"],
     imageUrl: hyperFlix,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/hassanidris/react-hyperflix-movies-hub",
+    previewUrl: "https://hyperflix-site.netlify.app/",
   },
   {
     title: "Active Unity Website",
@@ -306,8 +307,27 @@ export const projectsData = [
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: whoBrowseTheWeb,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/whobrowsesthewebg7/active-unity",
+    previewUrl: "https://whobrowsesthewebg7.github.io/active-unity/",
+  },
+  {
+    title: "ToDo App",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: [
+      "Tailwindcss",
+      "React.js",
+      "TypeScript",
+      "Node.js",
+      "JWT",
+      "Express",
+      "Sequelize",
+      "PG",
+      "PostgreSQL",
+    ],
+    imageUrl: todo_app,
+    gitUrl: "https://github.com/group-6-d/to-do-app?tab=readme-ov-file",
+    previewUrl: "https://to-do-app-git-main-g6d.vercel.app/",
   },
   {
     title: "Nesma Holding Website",
@@ -315,8 +335,8 @@ export const projectsData = [
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: nesmaHolding,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/hassanidris/nesma-holding",
+    previewUrl: "https://hassanidris.github.io/nesma-holding/",
   },
   {
     title: "Miljonbemanning Website",
@@ -324,7 +344,7 @@ export const projectsData = [
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: miljonbemanning,
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/hassanidris/first-react-website",
+    previewUrl: "https://hassanidris.github.io/first-react-website/",
   },
 ] as const;

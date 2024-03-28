@@ -39,7 +39,7 @@ const Project = ({
           <ul className=" mt-2 flex flex-wrap gap-2 ">
             {tags.map((tag, index) => (
               <li
-                className=" rounded-full border border-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-black/[0.7]"
+                className=" rounded-full border border-black/[0.7] px-3 py-1 text-[0.5rem] uppercase tracking-wider text-black/[0.7]"
                 key={index}
               >
                 {tag}
@@ -49,13 +49,15 @@ const Project = ({
           <div className=" mt-4 flex gap-3 sm:mt-auto">
             <Link
               href={gitUrl}
-              className=" rounded-full bg-black/[0.7] px-5 py-2 text-[.9rem] uppercase tracking-wider text-white"
+              target="_blank"
+              className=" rounded-full bg-black/[0.7] px-5 py-2 text-[.7rem] uppercase tracking-wider text-white"
             >
               View Code
             </Link>
             <Link
               href={previewUrl}
-              className=" rounded-full bg-black/[0.7] px-5 py-2 text-[.9rem] uppercase tracking-wider text-white"
+              target="_blank"
+              className=" rounded-full bg-black/[0.7] px-5 py-2 text-[.7rem] uppercase tracking-wider text-white"
             >
               Preivew
             </Link>
@@ -65,7 +67,7 @@ const Project = ({
           src={imageUrl}
           alt={title}
           quality={95}
-          className=" group-hover:scale[1.04] absolute -right-40 top-8 w-[28.25rem] translate-y-3 rounded-t-lg shadow-2xl transition group-even:-left-40 group-even:right-[initial] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3
+          className=" group-hover:scale[1.04] absolute -right-40 top-10 w-[28.25rem] translate-y-3 rounded-t-lg shadow-2xl transition group-even:-left-40 group-even:right-[initial] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3
              group-even:group-hover:rotate-2
              sm:-right-14
              group-even:sm:-left-14"

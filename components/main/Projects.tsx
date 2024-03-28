@@ -13,9 +13,9 @@ const Projects = () => {
         <SparklesIcon className="mr-[10px] h-5 w-5 text-[#b49bff]" />
         <h1 className="Welcome-text text-[13px]">My Projects</h1>
       </div>
-      <h1 className="bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text py-20 text-[40px] font-semibold text-transparent">
-        My Projects
-      </h1>
+      <div className="mb-[40px] mt-[30px] text-center text-[30px] font-medium text-white">
+        Transforming Ideas into Exceptional Web Experiences
+      </div>
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
