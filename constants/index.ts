@@ -7,6 +7,25 @@ import nesmaHolding from "@/public/assets/screenshot-nesma.github.png";
 import whoBrowseTheWeb from "@/public/assets/screenshot-whobrowsesthewebg7.png";
 import todo_app from "@/public/assets/screenshot-todo-website.vercel.png";
 
+export const navLinks = [
+  {
+    title: "Home",
+    path: "#about-me",
+  },
+  {
+    title: "Skills",
+    path: "#skills",
+  },
+  {
+    title: "Projects",
+    path: "#projects",
+  },
+  {
+    title: "Contact",
+    path: "#contact",
+  },
+];
+
 export const Skill_data = [
   {
     skill_name: "Html 5",
