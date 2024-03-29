@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="mr-[10px] h-5 w-5 text-[#b49bff]" />
           <h1 className="welcome-text flex items-center gap-2 text-[13px] text-white">
-            Hi, I'm Hassen Ahmed
+            Hi, I&apos;m Hassen Ahmed
             <span className="wave text-7xl">
               <svg
                 stroke="currentColor"
