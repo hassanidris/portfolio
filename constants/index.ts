@@ -314,17 +314,7 @@ export const projectsData = [
     title: "ToDo App",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: [
-      "Tailwindcss",
-      "React.js",
-      "TypeScript",
-      "Node.js",
-      "JWT",
-      "Express",
-      "Sequelize",
-      "PG",
-      "PostgreSQL",
-    ],
+    tags: ["React.js", "TypeScript", "Node.js", "Express", "PostgreSQL"],
     imageUrl: todo_app,
     gitUrl: "https://github.com/group-6-d/to-do-app?tab=readme-ov-file",
     previewUrl: "https://to-do-app-git-main-g6d.vercel.app/",

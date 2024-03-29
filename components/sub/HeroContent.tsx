@@ -75,7 +75,7 @@ const HeroContent = () => {
           <motion.a
             href="#projects"
             variants={slideInFromLeft(1)}
-            className=" button-primary cursor-pointer rounded-lg px-10 py-2 text-center text-sm text-white md:text-base"
+            className=" button-primary cursor-pointer rounded-lg px-6 py-2 text-center text-sm text-white sm:px-10 md:text-base"
           >
             My Projects!
           </motion.a>
@@ -83,7 +83,7 @@ const HeroContent = () => {
             href="/assets/CV_Hassen_Ahmed.pdf"
             target="_blank"
             variants={slideInFromLeft(1)}
-            className="button-primary max-w-[200px] cursor-pointer rounded-lg px-10 py-2 text-center text-sm text-white md:text-base"
+            className="button-primary max-w-[200px] cursor-pointer rounded-lg px-6 py-2 text-center text-sm text-white sm:px-10 md:text-base"
           >
             Download CV
           </motion.a>
