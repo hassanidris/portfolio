@@ -13,7 +13,7 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: "Home",
+    label: "About",
     page: "about-me",
   },
   {
@@ -78,7 +78,7 @@ const NavBar = () => {
                     key={idx}
                     to={item.page}
                     className={
-                      "block cursor-pointer px-3 py-1 text-gray-300 hover:rounded-lg hover:bg-white hover:text-neutral-900  md:inline-block"
+                      "block cursor-pointer px-3 py-1 text-[#b49bff] hover:rounded-lg hover:bg-white hover:text-neutral-900  md:inline-block"
                     }
                     activeClass="active"
                     spy={true}

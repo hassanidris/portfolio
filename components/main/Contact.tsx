@@ -62,7 +62,7 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
         <SparklesIcon className="mr-[10px] h-5 w-5 text-[#b49bff]" />
         <h1 className="Welcome-text text-[13px]">Contact Me</h1>
       </div>
-      <div className="mb-[40px] mt-[30px] text-center text-[30px] font-medium text-white">
+      <div className="mb-[20px] mt-[30px] text-center text-[30px] font-medium text-white">
         Let&apos;s work together
       </div>
       <motion.div
@@ -93,7 +93,7 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
             <span>+46 73-725 79 71</span>
           </div>
         </div>
-        <div className=" relative w-full flex-1 p-12">
+        <div className=" relative w-full flex-1 px-0 py-12 md:px-12">
           <motion.form
             ref={formRef}
             onSubmit={sendEmail}

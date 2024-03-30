@@ -32,10 +32,12 @@ const Project = ({
       }}
       className=" group mb-3 last:mb-0  sm:mb-8"
     >
-      <section className=" relative h-[28rem] max-w-[25rem] overflow-hidden rounded-lg border border-black/5 bg-gray-100 transition even:pl-8 hover:bg-gray-200 group-even:even:pl-8 sm:h-[20rem] sm:max-w-[54rem] sm:pr-8">
+      <section className=" relative h-[33rem] max-w-[25rem] overflow-hidden rounded-lg border border-black/5 bg-gray-100 transition even:pl-8 hover:bg-gray-200 group-even:even:pl-8 sm:h-[24rem] sm:max-w-[54rem] sm:pr-8">
         <div className="flex h-full w-full flex-col px-5 pb-7 pt-4 group-odd:mr-[18rem] group-even:ml-[0rem] sm:max-w-[50%] sm:pl-10 sm:pr-2 sm:pt-10 group-even:sm:ml-[26rem]">
           <h3 className=" text-2xl font-semibold">{title}</h3>
-          <p className=" mt-2 leading-relaxed text-gray-700">{description}</p>
+          <p className=" mt-2 text-sm leading-relaxed text-gray-700">
+            {description}
+          </p>
           <ul className=" mt-2 flex flex-wrap gap-2 ">
             {tags.map((tag, index) => (
               <li
@@ -67,7 +69,7 @@ const Project = ({
           src={imageUrl}
           alt={title}
           quality={95}
-          className=" group-hover:scale[1.04] absolute -right-[5rem] top-[15rem] w-[28.25rem] translate-y-3 rounded-t-lg shadow-2xl transition group-even:-left-[5rem] group-even:right-[initial] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2 sm:-right-14
+          className=" group-hover:scale[1.04] absolute -right-[5rem] top-[20rem] w-[28.25rem] translate-y-3 rounded-t-lg shadow-2xl transition group-even:-left-[5rem] group-even:right-[initial] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2 sm:-right-14
              sm:top-10
              sm:w-[28.25rem]
              group-even:sm:-left-14"
