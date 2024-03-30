@@ -17,7 +17,7 @@ const HeroContent = () => {
       animate="visible"
       className="z-[20] mx-auto mt-40 flex w-full flex-row items-center justify-center px-5 md:max-w-[1440px] md:px-20"
     >
-      <div className="m-auto flex h-full w-full flex-col items-center justify-center gap-5 text-center sm:items-start sm:text-start">
+      <div className="m-auto flex h-full w-full flex-col items-center justify-center gap-5 text-center md:items-start md:text-start">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box border border-[#7042f88b] px-[7px] py-[8px] opacity-[0.9]"
@@ -66,7 +66,7 @@ const HeroContent = () => {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="my-5 max-w-[600px] text-lg text-gray-400"
+          className="my-5 max-w-[600px] text-center text-lg text-gray-400 md:text-start"
         >
           I&apos;m a Front End Developer with an eye on UI/UX. Check out my
           projects and skills.
@@ -102,6 +102,7 @@ const HeroContent = () => {
                   key={social.name}
                   width={30}
                   height={30}
+                  className="hover:scale-[1.1]"
                 />
               </motion.a>
             ))}

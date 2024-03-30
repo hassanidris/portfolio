@@ -34,7 +34,7 @@ const NavBar = () => {
   const pathname = usePathname();
   const [navbar, setNavbar] = useState(false);
   return (
-    <header className=" fixed top-0 z-50 mx-auto w-full bg-[#030001417] px-10 py-2 shadow-lg shadow-[#2a0e61]/50 backdrop-blur-md md:px-20">
+    <header className=" fixed top-0 z-50 mx-auto w-full bg-[#030001417] px-10 py-1 shadow-lg shadow-[#2a0e61]/50 backdrop-blur-md lg:px-28">
       <div className="justify-between md:flex md:items-center">
         <div>
           <div className="flex items-center justify-between py-3 md:block md:py-5">
@@ -50,7 +50,7 @@ const NavBar = () => {
                 className="hover:animate-slowspin cursor-pointer text-gray-300"
               />
 
-              <span className="ml-[10px] block font-bold text-gray-300">
+              <span className="ml-[10px] block text-xl font-bold text-gray-300">
                 Hassen Ahmed
               </span>
             </Link>
@@ -71,14 +71,14 @@ const NavBar = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <div className="flex h-full flex-col items-center justify-center space-y-8 md:flex-row md:space-x-8 md:space-y-0">
+            <div className="flex h-full flex-col items-center justify-center space-y-8 font-sans md:flex-row md:space-x-4 md:space-y-0">
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link
                     key={idx}
                     to={item.page}
                     className={
-                      "block cursor-pointer text-gray-300  hover:text-neutral-400 lg:inline-block"
+                      "block cursor-pointer px-3 py-1 text-gray-300 hover:rounded-lg hover:bg-white hover:text-neutral-900  md:inline-block"
                     }
                     activeClass="active"
                     spy={true}
