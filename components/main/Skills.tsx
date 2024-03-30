@@ -19,6 +19,7 @@ const Skills = () => {
       <div className=" mt-4 flex flex-row flex-wrap items-center justify-center gap-5">
         {Frontend_skill.map((image, index) => (
           <div
+            key={index}
             className=" relative z-10
          before:absolute
           before:-top-3 before:left-1/2 before:w-max before:max-w-xs before:-translate-x-1/2 before:-translate-y-full before:rounded-md before:bg-white before:px-3 before:py-2 before:text-black before:opacity-0 before:transition-all before:content-[attr(data-tip)] 
@@ -28,7 +29,6 @@ const Skills = () => {
             data-tip={image.skill_name}
           >
             <SkillDataProvider
-              key={index}
               src={image.Image}
               width={image.width}
               height={image.height}
@@ -41,6 +41,7 @@ const Skills = () => {
       <div className="mt-4 flex flex-row flex-wrap items-center justify-center gap-5">
         {Backend_skill.map((image, index) => (
           <div
+            key={index}
             className=" relative z-10
        before:absolute
         before:-top-3 before:left-1/2 before:w-max before:max-w-xs before:-translate-x-1/2 before:-translate-y-full before:rounded-md before:bg-white before:px-3 before:py-2 before:text-black before:opacity-0 before:transition-all before:content-[attr(data-tip)] 
@@ -50,7 +51,6 @@ const Skills = () => {
             data-tip={image.skill_name}
           >
             <SkillDataProvider
-              key={index}
               src={image.Image}
               width={image.width}
               height={image.height}
@@ -63,6 +63,7 @@ const Skills = () => {
       <div className="mt-4 flex flex-row flex-wrap items-center justify-center gap-5">
         {Design_skill.map((image, index) => (
           <div
+            key={index}
             className=" relative z-10
        before:absolute
         before:-top-3 before:left-1/2 before:w-max before:max-w-xs before:-translate-x-1/2 before:-translate-y-full before:rounded-md before:bg-white before:px-3 before:py-2 before:text-black before:opacity-0 before:transition-all before:content-[attr(data-tip)] 
@@ -72,7 +73,6 @@ const Skills = () => {
             data-tip={image.skill_name}
           >
             <SkillDataProvider
-              key={index}
               src={image.Image}
               width={image.width}
               height={image.height}
@@ -85,6 +85,7 @@ const Skills = () => {
       <div className="mt-4 flex flex-row flex-wrap items-center justify-center gap-5">
         {Other_skill.map((image, index) => (
           <div
+            key={index}
             className=" relative z-10
        before:absolute
         before:-top-3 before:left-1/2 before:w-max before:max-w-xs before:-translate-x-1/2 before:-translate-y-full before:rounded-md before:bg-white before:px-3 before:py-2 before:text-black before:opacity-0 before:transition-all before:content-[attr(data-tip)] 
@@ -94,7 +95,6 @@ const Skills = () => {
             data-tip={image.skill_name}
           >
             <SkillDataProvider
-              key={index}
               src={image.Image}
               width={image.width}
               height={image.height}
