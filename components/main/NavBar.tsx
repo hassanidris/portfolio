@@ -78,7 +78,7 @@ const NavBar = () => {
                     key={idx}
                     to={item.page}
                     className={
-                      "block cursor-pointer px-3 py-1 text-[#b49bff] hover:rounded-lg hover:bg-white hover:text-neutral-900  md:inline-block"
+                      "block cursor-pointer px-3 py-1 text-[#b49bff] hover:rounded-lg hover:bg-white hover:text-neutral-900 md:inline-block  md:text-white"
                     }
                     activeClass="active"
                     spy={true}
