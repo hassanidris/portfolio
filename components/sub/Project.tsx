@@ -50,14 +50,14 @@ const Project = ({
             <Link
               href={gitUrl}
               target="_blank"
-              className=" rounded-full bg-black/[0.7] px-5 py-2 text-[.7rem] uppercase tracking-wider text-white"
+              className="rounded-full border border-black/[0.7] bg-black/[0.7] px-5 py-2 text-[.7rem] uppercase tracking-wider text-white hover:bg-transparent hover:text-black/[0.7]"
             >
               View Code
             </Link>
             <Link
               href={previewUrl}
               target="_blank"
-              className=" rounded-full bg-black/[0.7] px-5 py-2 text-[.7rem] uppercase tracking-wider text-white"
+              className=" rounded-full bg-black/[0.7] px-5 py-2 text-[.7rem] uppercase tracking-wider text-white hover:border hover:border-black/[0.7] hover:bg-transparent hover:text-black/[0.7]"
             >
               Preivew
             </Link>

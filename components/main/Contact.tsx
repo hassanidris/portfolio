@@ -33,11 +33,6 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
     if (formRef.current && serviceKey && templateKey && publicKey) {
       try {
         const result = await emailjs.sendForm(
-          // "service_halud3g",
-          // "template_fjqifw8",
-          // formRef.current,
-          // "SRbd2l1ILy5Rz0jsm"
-
           // Trying to make it .env variables
           serviceKey,
           templateKey,
@@ -79,9 +74,6 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
         className=" m-auto flex h-full w-full flex-col items-center p-2.5 text-white md:max-w-[69rem] md:flex-row md:gap-12"
       >
         <div className=" flex flex-1 flex-col items-center gap-5 text-center md:items-start md:gap-10 md:text-left">
-          {/* <h1 className=" w-[10ch] text-4xl font-bold leading-[45px] md:text-6xl md:leading-[88px]">
-            Let&apos;s work together
-          </h1> */}
           <p className=" leading-relaxed">
             With a previous background experience in UI/UX design, I have now
             decided to expand my knowledge to become a Frontend Developer and I
@@ -109,31 +101,71 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
             method="post"
             className=" flex flex-col gap-5"
           >
-            <input
-              className=" rounded border border-white bg-transparent p-2.5 md:p-5"
+            <div className="inputBox">
+              <input
+                type="text"
+                name="name"
+                // placeholder="Name"
+                required
+              />
+              <span>Name</span>
+            </div>
+            <div className="inputBox">
+              <input
+                type="email"
+                name="email"
+                // placeholder="Email"
+                required
+              />
+              <span>email</span>
+            </div>
+            <div className="inputBox">
+              <textarea
+                typeof="text"
+                rows={7}
+                // placeholder="Message"
+                name="message"
+                required
+              />
+              <span>message</span>
+            </div>
+            {/* <input
+              className=" rounded border border-white bg-black p-2.5 text-white placeholder-white autofill:bg-black focus:placeholder-transparent md:p-5"
               type="text"
               name="name"
               placeholder="Name"
               required
-            />
-            <input
-              className=" rounded border border-white bg-transparent p-2.5 md:p-5"
+            /> */}
+            {/* <input
+              className=" rounded border border-white bg-black/[0.7] p-2.5 text-white placeholder-white focus:placeholder-transparent md:p-5"
               type="email"
               name="email"
               placeholder="Email"
               required
-            />
-            <textarea
-              className=" rounded border border-white bg-transparent p-2.5 md:p-5"
+            /> */}
+            {/* <textarea
+              className=" rounded border border-white bg-black/[0.7] p-2.5 text-white placeholder-white autofill:bg-white focus:placeholder-transparent md:p-5"
+              typeof="text"
               rows={7}
               placeholder="Message"
               name="message"
-            />
-            <button className="button-primary max-w-[200px] cursor-pointer rounded-lg py-2 text-center text-white">
-              Submit
-            </button>
-            {error && <p>Error</p>}
-            {success && <p>Success</p>}
+            /> */}
+            <div className="flex justify-between ">
+              <button className=" button-primary max-w-[200px] cursor-pointer rounded-lg px-8 py-2 text-center text-white">
+                Submit
+              </button>
+
+              {error && (
+                <p className=" rounded-lg bg-red-700 px-4 py-2 text-white">
+                  Error
+                </p>
+              )}
+              {success && (
+                <p className=" rounded-lg bg-green-700 px-4 py-2 text-white">
+                  Email sent successfully
+                </p>
+              )}
+            </div>
           </motion.form>
         </div>
       </motion.div>
