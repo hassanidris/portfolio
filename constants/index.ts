@@ -326,15 +326,15 @@ export const projectsData = [
     gitUrl: "https://github.com/group-6-d/to-do-app?tab=readme-ov-file",
     previewUrl: "https://to-do-app-git-main-g6d.vercel.app/",
   },
-  {
-    title: "Nesma Holding Website",
-    description:
-      "In our project to develop a company website, I contributed from the design stage to building the HTML pages, ensuring a seamless blend of aesthetics and functionality using HTML, CSS, and JavaScript. My involvement was crucial in delivering a user-friendly and visually appealing website.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: nesmaHolding,
-    gitUrl: "https://github.com/hassanidris/nesma-holding",
-    previewUrl: "https://hassanidris.github.io/nesma-holding/",
-  },
+  // {
+  //   title: "Nesma Holding Website",
+  //   description:
+  //     "In our project to develop a company website, I contributed from the design stage to building the HTML pages, ensuring a seamless blend of aesthetics and functionality using HTML, CSS, and JavaScript. My involvement was crucial in delivering a user-friendly and visually appealing website.",
+  //   tags: ["HTML", "CSS", "JavaScript"],
+  //   imageUrl: nesmaHolding,
+  //   gitUrl: "https://github.com/hassanidris/nesma-holding",
+  //   previewUrl: "https://hassanidris.github.io/nesma-holding/",
+  // },
   {
     title: "Miljonbemanning Website",
     description:
