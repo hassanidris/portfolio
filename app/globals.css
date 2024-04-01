@@ -168,3 +168,29 @@ select:-webkit-autofill:active {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: #f3f3f3;
 }
+
+.menu-item {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu-item::before {
+  content: " ";
+  width: 2rem;
+  height: 0.2rem;
+  background: linear-gradient(90deg, #a855f7 0%, #06b6d4 100%);
+  border-radius: 0.5rem;
+  position: absolute;
+  bottom: -0.6rem;
+  opacity: 0;
+  transform: translateX(-1.5rem);
+  transition: all 0.3s ease;
+}
+
+.menu:hover::before {
+  width: 100%;
+  transform: translateX(0);
+  opacity: 1;
+}

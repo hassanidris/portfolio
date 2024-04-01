@@ -69,15 +69,14 @@ const NavBar = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <div className="flex h-full flex-col items-center justify-center space-y-8 font-sans md:flex-row md:space-x-4 md:space-y-0">
+            <div className="flex h-full flex-col items-center justify-center gap-8 space-y-8 font-sans md:flex-row md:space-x-4 md:space-y-0">
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link
                     key={idx}
                     to={item.page}
-                    className={
-                      "block cursor-pointer px-3 py-1 text-[#b49bff] hover:rounded-lg hover:bg-white hover:text-neutral-900 md:inline-block  md:text-white"
-                    }
+                    className={` relative block cursor-pointer py-3 text-white transition-colors after:absolute after:left-0 after:block after:h-0.5 after:w-full after:origin-right after:scale-x-0 after:bg-purple-400 after:transition after:duration-300 hover:text-purple-300 after:hover:origin-left after:hover:scale-x-100`}
+                    // className={`block cursor-pointer px-3 py-1 text-[#b49bff] hover:rounded-lg hover:bg-white hover:text-neutral-900 md:inline-block  md:text-white`}
                     activeClass="active"
                     spy={true}
                     smooth={true}
