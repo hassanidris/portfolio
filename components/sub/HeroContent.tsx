@@ -12,12 +12,12 @@ import { Socials } from "@/constants";
 
 const HeroContent = () => {
   return (
-    <motion.div
+    <motion.section
       initial="hidden"
       animate="visible"
-      className="z-[20] mx-auto mt-40 flex w-full flex-row items-center justify-center px-5 md:max-w-[1440px] md:px-20"
+      className="z-[20] mx-auto mt-40 flex w-full flex-row items-center justify-center gap-8 px-5 md:max-w-[80rem] "
     >
-      <div className="m-auto flex h-full w-full flex-col items-center justify-center gap-5 text-center md:items-start md:text-start">
+      <div className="m-auto flex h-full w-full flex-col items-center justify-center gap-8 text-center md:items-start md:text-start">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box border border-[#7042f88b] px-[7px] py-[8px] opacity-[0.9]"
@@ -48,9 +48,9 @@ const HeroContent = () => {
         </motion.div>
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="mt-6 flex h-auto w-auto max-w-[700px] flex-col gap-6 text-4xl font-bold leading-[1.4] text-white md:text-6xl"
+          className="flex h-auto w-auto max-w-[700px] flex-col gap-6 text-4xl font-bold leading-[1.4] text-white md:text-[3.7rem]"
         >
-          <span>
+          <span className="leading-[1.2]">
             Dedicated to
             <span className="bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">
               {" "}
@@ -66,12 +66,12 @@ const HeroContent = () => {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="my-5 max-w-[600px] text-center text-lg text-gray-400 md:text-start"
+          className="max-w-[600px] text-center text-lg text-gray-400 md:text-start"
         >
           I&apos;m a Front End Developer with an eye on UI/UX. Check out my
           projects and skills.
         </motion.p>
-        <div className=" mt-10 flex items-center justify-center gap-4 sm:justify-start">
+        <div className="flex items-center justify-center gap-4 sm:justify-start">
           <motion.a
             href="#projects"
             variants={slideInFromLeft(1)}
@@ -87,7 +87,7 @@ const HeroContent = () => {
           >
             Download CV
           </motion.a>
-          <motion.div className="flex flex-row gap-5">
+          <motion.div className="flex flex-row gap-4">
             {Socials.map((social) => (
               <motion.a
                 variants={slideInFromLeft(1)}
@@ -111,7 +111,7 @@ const HeroContent = () => {
       </div>
       <motion.div
         variants={slideInFromRight(0.8)}
-        className=" hidden h-full w-full items-center justify-center md:flex"
+        className=" hidden h-full w-full md:block"
       >
         <Image
           src="/assets/my_photo_2.png"
@@ -120,7 +120,7 @@ const HeroContent = () => {
           width={550}
         />
       </motion.div>
-    </motion.div>
+    </motion.section>
   );
 };
 

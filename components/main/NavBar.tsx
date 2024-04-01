@@ -34,34 +34,32 @@ const NavBar = () => {
   const pathname = usePathname();
   const [navbar, setNavbar] = useState(false);
   return (
-    <header className=" fixed top-0 z-50 mx-auto w-full bg-[#030001417] px-10 py-1 shadow-lg shadow-[#2a0e61]/50 backdrop-blur-md lg:px-28">
-      <div className="justify-between md:flex md:items-center">
-        <div>
-          <div className="flex items-center justify-between py-3 md:block md:py-5">
-            <Link
-              to="about-me"
-              className="flex h-auto w-auto flex-row items-center"
-            >
-              <Image
-                src="/assets/logo.svg"
-                alt="logo"
-                width={40}
-                height={40}
-                className="hover:animate-slowspin cursor-pointer text-gray-300"
-              />
+    <header className=" fixed top-0 z-50 mx-auto w-full bg-[#030001417] px-5 py-1 shadow-lg shadow-[#2a0e61]/50 backdrop-blur-md lg:px-28 ">
+      <div className="mx-auto justify-between md:flex md:max-w-[80rem] md:items-center">
+        <div className="flex items-center justify-between py-3 md:block md:py-5">
+          <Link
+            to="about-me"
+            className="flex h-auto w-auto flex-row items-center"
+          >
+            <Image
+              src="/assets/logo.svg"
+              alt="logo"
+              width={40}
+              height={40}
+              className="hover:animate-slowspin cursor-pointer text-gray-300"
+            />
 
-              <span className="ml-[10px] block text-xl font-bold text-gray-300">
-                Hassen Ahmed
-              </span>
-            </Link>
-            <div className="md:hidden">
-              <button
-                className="rounded-md p-2 text-gray-300 outline-none focus:border focus:border-gray-400"
-                onClick={() => setNavbar(!navbar)}
-              >
-                {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
-              </button>
-            </div>
+            <span className="ml-[10px] block text-xl font-bold text-gray-300">
+              Hassen Ahmed
+            </span>
+          </Link>
+          <div className="md:hidden">
+            <button
+              className="rounded-md p-2 text-gray-300 outline-none focus:border focus:border-gray-400"
+              onClick={() => setNavbar(!navbar)}
+            >
+              {navbar ? <IoMdClose size={30} /> : <IoMdMenu size={30} />}
+            </button>
           </div>
         </div>
 

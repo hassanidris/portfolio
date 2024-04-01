@@ -111,7 +111,7 @@ html {
   width: 100%;
   padding: 15px;
   border: 1px solid #b49bff;
-  background: black;
+  background: rgba(0, 0, 0, 0.7);
   border-radius: 5px;
   outline: none;
   color: white;
@@ -138,7 +138,8 @@ html {
   font-size: 0.65em;
   padding: 0 10px;
   border: 1px solid #b49bff;
-  background-color: black;
+  /* background-color: black; */
+  background-color: rgba(0, 0, 0, 0.7);
   letter-spacing: 0.2em;
   border-radius: 2px;
 }

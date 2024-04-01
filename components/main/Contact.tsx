@@ -71,10 +71,10 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
           scale: scaleProgress,
           opacity: opacityProgress,
         }}
-        className=" m-auto flex h-full w-full flex-col items-center p-2.5 text-white md:max-w-[69rem] md:flex-row md:gap-12"
+        className=" m-auto flex w-full flex-col items-center justify-start p-2.5 text-white md:max-w-[80rem] md:flex-row md:gap-[4rem]"
       >
         <div className=" flex flex-1 flex-col items-center gap-5 text-center md:items-start md:gap-10 md:text-left">
-          <p className=" leading-relaxed">
+          <p className=" leading-[1.8]">
             With a previous background experience in UI/UX design, I have now
             decided to expand my knowledge to become a Frontend Developer and I
             am looking for an internship. I am deeply passionate about my work
@@ -93,7 +93,7 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
             <span>+46 73-725 79 71</span>
           </div>
         </div>
-        <div className=" relative w-full flex-1 px-0 py-12 md:px-12">
+        <div className=" relative w-full flex-1 px-0 py-12 ">
           <motion.form
             ref={formRef}
             onSubmit={sendEmail}
@@ -129,27 +129,7 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
               />
               <span>message</span>
             </div>
-            {/* <input
-              className=" rounded border border-white bg-black p-2.5 text-white placeholder-white autofill:bg-black focus:placeholder-transparent md:p-5"
-              type="text"
-              name="name"
-              placeholder="Name"
-              required
-            /> */}
-            {/* <input
-              className=" rounded border border-white bg-black/[0.7] p-2.5 text-white placeholder-white focus:placeholder-transparent md:p-5"
-              type="email"
-              name="email"
-              placeholder="Email"
-              required
-            /> */}
-            {/* <textarea
-              className=" rounded border border-white bg-black/[0.7] p-2.5 text-white placeholder-white autofill:bg-white focus:placeholder-transparent md:p-5"
-              typeof="text"
-              rows={7}
-              placeholder="Message"
-              name="message"
-            /> */}
+
             <div className="flex justify-between ">
               <button className=" button-primary max-w-[200px] cursor-pointer rounded-lg px-8 py-2 text-center text-white">
                 Submit
