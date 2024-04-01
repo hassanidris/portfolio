@@ -6,7 +6,8 @@ import {
 } from "@/constants";
 import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";
-import SkillText from "../sub/SkillText";
+import SkillText from "../sub/SectionHeader";
+import SectionHeader from "../sub/SectionHeader";
 
 const Skills = () => {
   return (
@@ -15,7 +16,12 @@ const Skills = () => {
       className="relative flex h-full flex-col items-center justify-center gap-3 overflow-hidden py-20"
       // style={{ transform: "scale(0.9" }}
     >
-      <SkillText />
+      <SectionHeader
+        title="my skils"
+        desc="Making apps with modern technologies"
+        slogen="Never miss a day to learn"
+      />
+
       <div className=" mt-4 flex flex-row flex-wrap items-center justify-center gap-5">
         {Frontend_skill.map((image, index) => (
           <SkillDataProvider

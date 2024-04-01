@@ -9,7 +9,7 @@ import {
   useTransform,
 } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { SparklesIcon } from "@heroicons/react/24/solid";
+import SectionHeader from "../sub/SectionHeader";
 
 interface Props {
   serviceKey: string;
@@ -58,13 +58,11 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
       id="contact"
       className=" flex flex-col items-center justify-center"
     >
-      <div className="Welcome-box border border-[#7042f88b] px-[7px] py-[8px] opacity-[0.9]">
-        <SparklesIcon className="mr-[10px] h-5 w-5 text-[#b49bff]" />
-        <h1 className="Welcome-text text-[13px]">Contact Me</h1>
-      </div>
-      <div className="mb-[20px] mt-[30px] text-center text-[30px] font-medium text-white">
-        Let&apos;s work together
-      </div>
+      <SectionHeader
+        title="Contact Me"
+        desc="Let's work together"
+        slogen="Embrace curiosity, for it is the compass that leads to innovation"
+      />
       <motion.div
         ref={ref}
         style={{
@@ -93,7 +91,7 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
             <span>+46 73-725 79 71</span>
           </div>
         </div>
-        <div className=" relative w-full flex-1 px-0 py-12 ">
+        <div className=" relative w-full flex-1 px-0 pb-12 ">
           <motion.form
             ref={formRef}
             onSubmit={sendEmail}

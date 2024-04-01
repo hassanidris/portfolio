@@ -118,6 +118,7 @@ const HeroContent = () => {
           alt="work icons"
           height={550}
           width={550}
+          loading="eager"
         />
       </motion.div>
     </motion.section>
