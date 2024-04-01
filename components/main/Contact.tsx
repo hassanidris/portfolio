@@ -69,7 +69,7 @@ const Contact = ({ serviceKey, templateKey, publicKey }: Props) => {
           scale: scaleProgress,
           opacity: opacityProgress,
         }}
-        className=" m-auto flex w-full flex-col items-center justify-start p-2.5 text-white md:max-w-[80rem] md:flex-row md:gap-[4rem]"
+        className=" m-auto flex w-full flex-col items-center justify-start gap-8 p-2.5 text-white md:max-w-[80rem] md:flex-row md:items-start md:gap-[4rem]"
       >
         <div className=" flex flex-1 flex-col items-center gap-5 text-center md:items-start md:gap-10 md:text-left">
           <p className=" leading-[1.8]">
