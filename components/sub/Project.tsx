@@ -30,7 +30,7 @@ const Project = ({
         scale: scaleProgress,
         opacity: opacityProgress,
       }}
-      className=" group mb-3 last:mb-0  sm:mb-8"
+      className=" group mb-5 last:mb-0  sm:mb-10"
     >
       <section className=" relative h-[33rem] max-w-[25rem] overflow-hidden rounded-lg border border-black/5 bg-gray-100 transition even:pl-8 hover:bg-gray-200 group-even:even:pl-8 sm:h-[24rem] sm:max-w-[54rem] sm:pr-8">
         <div className="flex h-full w-full flex-col px-5 pb-7 pt-4 group-odd:mr-[18rem] group-even:ml-[0rem] sm:max-w-[50%] sm:pl-10 sm:pr-2 sm:pt-10 group-even:sm:ml-[26rem]">

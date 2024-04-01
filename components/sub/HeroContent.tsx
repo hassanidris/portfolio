@@ -15,7 +15,7 @@ const HeroContent = () => {
     <motion.section
       initial="hidden"
       animate="visible"
-      className="z-[20] mx-auto mt-40 flex w-full flex-row items-center justify-center gap-8 px-5 md:max-w-[80rem] "
+      className="z-[20] mx-auto mt-40 flex w-full flex-row items-center justify-center gap-8 px-0 md:max-w-[80rem] md:px-5 "
     >
       <div className="m-auto flex h-full w-full flex-col items-center justify-center gap-8 text-center md:items-start md:text-start">
         <motion.div
@@ -111,7 +111,7 @@ const HeroContent = () => {
       </div>
       <motion.div
         variants={slideInFromRight(0.8)}
-        className=" hidden h-full w-full md:block"
+        className=" hidden h-full w-full justify-end md:flex"
       >
         <Image
           src="/assets/my_photo_2.png"
