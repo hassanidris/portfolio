@@ -17,7 +17,7 @@ const Skills = () => {
       // style={{ transform: "scale(0.9" }}
     >
       <SectionHeader
-        title="my skils"
+        title="my skills"
         desc="Making apps with modern technologies"
         slogen="Never miss a day to learn"
       />

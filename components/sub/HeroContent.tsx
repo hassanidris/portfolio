@@ -9,6 +9,7 @@ import {
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 import { Socials } from "@/constants";
+import PrimaryButton from "./PrimaryButton";
 
 const HeroContent = () => {
   return (
@@ -72,21 +73,27 @@ const HeroContent = () => {
           projects and skills.
         </motion.p>
         <div className="flex items-center justify-center gap-4 sm:justify-start">
-          <motion.a
+          <PrimaryButton title="My Projects" herf="#projects" target="_self" />
+          <PrimaryButton
+            title="Download CV"
+            herf="/assets/CV_Hassen_Ahmed.pdf"
+            target="_blank"
+          />
+          {/* <motion.a
             href="#projects"
             variants={slideInFromLeft(1)}
             className=" button-primary cursor-pointer rounded-lg px-6 py-2 text-center text-sm text-white sm:px-10 md:text-base"
           >
             My Projects!
-          </motion.a>
-          <motion.a
+          </motion.a> */}
+          {/* <motion.a
             href="/assets/CV_Hassen_Ahmed.pdf"
             target="_blank"
             variants={slideInFromLeft(1)}
             className="button-primary max-w-[200px] cursor-pointer rounded-lg px-6 py-2 text-center text-sm text-white sm:px-10 md:text-base"
           >
             Download CV
-          </motion.a>
+          </motion.a> */}
           <motion.div className="flex flex-row gap-4">
             {Socials.map((social) => (
               <motion.a

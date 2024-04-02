@@ -15,7 +15,7 @@ interface Props {
   slogen?: string;
 }
 
-const SkillText = ({ title, desc, slogen }: Props) => {
+const SectionHeader = ({ title, desc, slogen }: Props) => {
   return (
     <div className="flex h-auto w-full flex-col items-center justify-center">
       <motion.div
@@ -41,4 +41,4 @@ const SkillText = ({ title, desc, slogen }: Props) => {
   );
 };
 
-export default SkillText;
+export default SectionHeader;

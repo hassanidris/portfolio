@@ -69,7 +69,7 @@ const NavBar = () => {
               navbar ? "block" : "hidden"
             }`}
           >
-            <div className="flex h-full flex-col items-center justify-center gap-8 space-y-8 font-sans md:flex-row md:space-x-4 md:space-y-0">
+            <div className="flex h-full flex-col items-center justify-center gap-3 space-y-8 font-sans md:flex-row md:gap-8 md:space-x-4 md:space-y-0">
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <Link
