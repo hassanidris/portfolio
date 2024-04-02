@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Roboto, Handlee } from "next/font/google";
 import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import NavBar from "@/components/main/NavBar";
@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${roboto.className} overflow-x-hidden overflow-y-scroll bg-[#030014]`}
+        className={`${roboto.className}  overflow-x-hidden overflow-y-scroll bg-[#030014]`}
       >
         <StarsCanvas />
         <NavBar />
