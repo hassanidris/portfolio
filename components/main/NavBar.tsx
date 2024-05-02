@@ -34,7 +34,7 @@ const NavBar = () => {
   const pathname = usePathname();
   const [navbar, setNavbar] = useState(false);
   return (
-    <header className=" fixed top-0 z-50 mx-auto w-full bg-[#030001417] px-5 py-1 shadow-lg shadow-[#2a0e61]/50 backdrop-blur-md lg:px-28 ">
+    <header className=" fixed top-0 z-50 mx-auto w-full bg-[#0301417] px-5 py-1 shadow-lg shadow-[#2a0e61]/50 backdrop-blur-xl md:backdrop-blur-md lg:px-28 ">
       <div className="mx-auto justify-between md:flex md:max-w-[80rem] md:items-center">
         <div className="flex items-center justify-between py-3 md:block md:py-5">
           <Link
@@ -75,8 +75,7 @@ const NavBar = () => {
                   <Link
                     key={idx}
                     to={item.page}
-                    className={` relative block cursor-pointer py-3 text-white transition-colors after:absolute after:left-0 after:block after:h-0.5 after:w-full after:origin-right after:scale-x-0 after:bg-purple-400 after:transition after:duration-300 hover:text-purple-300 after:hover:origin-left after:hover:scale-x-100`}
-                    // className={`block cursor-pointer px-3 py-1 text-[#b49bff] hover:rounded-lg hover:bg-white hover:text-neutral-900 md:inline-block  md:text-white`}
+                    className={`relative block cursor-pointer py-1 text-white transition-colors after:absolute after:left-0 after:block after:h-0.5 after:w-full after:origin-right after:scale-x-0 after:bg-purple-400 after:transition after:duration-300 hover:text-purple-300 after:hover:origin-left after:hover:scale-x-100`}
                     activeClass="active"
                     spy={true}
                     smooth={true}

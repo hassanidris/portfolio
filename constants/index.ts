@@ -209,6 +209,12 @@ export const Frontend_skill = [
     width: 50,
     height: 50,
   },
+  {
+    skill_name: "Redux",
+    Image: "/assets/redux.svg",
+    width: 50,
+    height: 50,
+  },
 ];
 
 export const Backend_skill = [
@@ -233,6 +239,12 @@ export const Backend_skill = [
   {
     skill_name: "PostgreSQL",
     Image: "/assets/postger.png",
+    width: 50,
+    height: 50,
+  },
+  {
+    skill_name: "Strapi - Headless CMS",
+    Image: "/assets/strapi.png",
     width: 50,
     height: 50,
   },
