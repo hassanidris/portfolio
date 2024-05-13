@@ -53,15 +53,12 @@ const HeroContent = () => {
         >
           <span className="leading-[1.2]">
             Dedicated to
-            <span className="bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">
+            <span className=" font-semibold italic text-cyan-500">
               {" "}
               optimizing{" "}
             </span>
             projects and
-            <span className="bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">
-              {" "}
-              eager{" "}
-            </span>
+            <span className=" font-semibold italic text-cyan-500"> eager </span>
             for professional growth.
           </span>
         </motion.div>
