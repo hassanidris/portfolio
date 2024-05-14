@@ -4,6 +4,7 @@ import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import NavBar from "@/components/main/NavBar";
 import Footer from "@/components/main/Footer";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-FZ4Y6MCFDP" />
     </html>
   );
 }
