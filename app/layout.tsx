@@ -5,6 +5,7 @@ import StarsCanvas from "@/components/main/StarBackground";
 import NavBar from "@/components/main/NavBar";
 import Footer from "@/components/main/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${roboto.className}  overflow-x-hidden overflow-y-scroll bg-[#030014]`}
       >
+        <GoogleTagManager gtmId="GTM-K9F5S8H8" />
         <StarsCanvas />
         <NavBar />
         {children}
