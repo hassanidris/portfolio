@@ -215,6 +215,12 @@ export const Frontend_skill = [
     width: 50,
     height: 50,
   },
+  {
+    skill_name: "GSAP",
+    Image: "/assets/gsap.svg",
+    width: 50,
+    height: 50,
+  },
 ];
 
 export const Backend_skill = [
