@@ -118,10 +118,10 @@ const HeroContent = () => {
         className=" hidden h-full w-full justify-end md:flex"
       >
         <Image
-          src="/assets/my_photo_2BW.png"
+          src="/assets/hero-photo.png"
           alt="work icons"
           height={550}
-          width={550}
+          width={600}
           loading="eager"
         />
       </motion.div>
