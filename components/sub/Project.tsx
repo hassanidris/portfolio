@@ -69,7 +69,7 @@ const Project = ({
           src={imageUrl}
           alt={title}
           quality={95}
-          className=" group-hover:scale[1.04] absolute -right-[5rem] top-[20rem] w-[28.25rem] translate-y-3 rounded-t-lg shadow-2xl transition group-even:-left-[5rem] group-even:right-[initial] group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-3 group-even:group-hover:rotate-2 sm:-right-14
+          className=" group-hover:scale[1.04] absolute -right-[5rem] top-[20rem] w-[28.25rem] translate-y-5 rounded-t-lg shadow-2xl transition group-even:-left-[5rem] group-even:right-[initial] group-hover:-translate-x-3 group-hover:translate-y-5 group-hover:-rotate-2 group-even:group-hover:translate-x-3 group-even:group-hover:translate-y-5 group-even:group-hover:rotate-2 sm:-right-14
              sm:top-10
              sm:w-[28.25rem]
              group-even:sm:-left-14"
