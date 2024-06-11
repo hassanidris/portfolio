@@ -301,40 +301,13 @@ export const Other_skill = [
 
 export const projectsData = [
   {
-    title: "2PAC Website",
+    title: "Artemareon Website",
     description:
-      "I crafted a responsive design and implemented a direct album playback feature using HTML, CSS, and JavaScript. My work focused on enabling users to easily navigate and stream albums with minimal effort, enhancing the overall user experience and engagement on the site. This project showcased my skills in creating interactive, user-friendly web interfaces and efficient streaming functionalities.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: twoPac,
-    gitUrl: "https://github.com/hassanidris/2pac-website",
-    previewUrl: "https://2pac-website.netlify.app/",
-  },
-  {
-    title: "Flappy Bird Clone",
-    description:
-      "In a team project creating a web-based game, I focused on developing the JavaScript logic and refining code for better readability. My contributions ensured efficient gameplay and facilitated future enhancements, highlighting my skills in vanilla JavaScript and commitment to clean coding practices.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    imageUrl: flappyBird,
-    gitUrl: "https://github.com/hassanidris/flappy-bird",
-    previewUrl: "https://hassanidris.github.io/flappy-bird/",
-  },
-  {
-    title: "HyperFlix Website",
-    description:
-      "I spearheaded the integration of the TMDB API for movie data, applied TailwindCSS for styling, and implemented Firebase for user authentication. My efforts were crucial in ensuring efficient data fetching, creating a responsive design, and securing user sessions, significantly contributing to the app’s user-friendly interface and robust functionality.",
-    tags: ["React", "JavaScript", "Tailwindcss", "Firebase"],
-    imageUrl: hyperFlix,
-    gitUrl: "https://github.com/hassanidris/react-hyperflix-movies-hub",
-    previewUrl: "https://hyperflix-site.netlify.app/",
-  },
-  {
-    title: "Active Unity Website",
-    description:
-      "In our React.js project aimed at SEO excellence, I was responsible for the app’s styling, media optimization, and performance enhancements. My work ensured a visually appealing interface, faster load times, and improved SEO metrics, showcasing my expertise in creating efficient, SEO-friendly web applications.",
-    tags: ["React", "Tailwindcss", "Framer"],
-    imageUrl: whoBrowseTheWeb,
-    gitUrl: "https://github.com/whobrowsesthewebg7/active-unity",
-    previewUrl: "https://whobrowsesthewebg7.github.io/active-unity/",
+      "I contributed from design to development, using HTML, CSS, JavaScript, GSAP, and three.js to create a visually appealing and user-friendly website.",
+    tags: ["Tailwind", "React.js", "GSAP", "Three.js"],
+    imageUrl: artemareon,
+    gitUrl: "https://github.com/hyperispace/artemareon",
+    previewUrl: "https://hyperispace.github.io/artemareon/",
   },
   {
     title: "ToDo App",
@@ -346,13 +319,40 @@ export const projectsData = [
     previewUrl: "https://to-do-app-git-main-g6d.vercel.app/",
   },
   {
-    title: "Artemareon Website",
+    title: "Active Unity Website",
     description:
-      "I contributed from design to development, using HTML, CSS, JavaScript, GSAP, and three.js to create a visually appealing and user-friendly website.",
-    tags: ["Tailwind", "React.js", "GSAP", "Three.js"],
-    imageUrl: artemareon,
-    gitUrl: "https://github.com/hyperispace/artemareon",
-    previewUrl: "https://hyperispace.github.io/artemareon/",
+      "In our React.js project aimed at SEO excellence, I was responsible for the app’s styling, media optimization, and performance enhancements. My work ensured a visually appealing interface, faster load times, and improved SEO metrics, showcasing my expertise in creating efficient, SEO-friendly web applications.",
+    tags: ["React", "Tailwindcss", "Framer"],
+    imageUrl: whoBrowseTheWeb,
+    gitUrl: "https://github.com/whobrowsesthewebg7/active-unity",
+    previewUrl: "https://whobrowsesthewebg7.github.io/active-unity/",
+  },
+  {
+    title: "HyperFlix Website",
+    description:
+      "I spearheaded the integration of the TMDB API for movie data, applied TailwindCSS for styling, and implemented Firebase for user authentication. My efforts were crucial in ensuring efficient data fetching, creating a responsive design, and securing user sessions, significantly contributing to the app’s user-friendly interface and robust functionality.",
+    tags: ["React", "JavaScript", "Tailwindcss", "Firebase"],
+    imageUrl: hyperFlix,
+    gitUrl: "https://github.com/hassanidris/react-hyperflix-movies-hub",
+    previewUrl: "https://hyperflix-site.netlify.app/",
+  },
+  {
+    title: "Flappy Bird Clone",
+    description:
+      "In a team project creating a web-based game, I focused on developing the JavaScript logic and refining code for better readability. My contributions ensured efficient gameplay and facilitated future enhancements, highlighting my skills in vanilla JavaScript and commitment to clean coding practices.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: flappyBird,
+    gitUrl: "https://github.com/hassanidris/flappy-bird",
+    previewUrl: "https://hassanidris.github.io/flappy-bird/",
+  },
+  {
+    title: "2PAC Website",
+    description:
+      "I crafted a responsive design and implemented a direct album playback feature using HTML, CSS, and JavaScript. My work focused on enabling users to easily navigate and stream albums with minimal effort, enhancing the overall user experience and engagement on the site. This project showcased my skills in creating interactive, user-friendly web interfaces and efficient streaming functionalities.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: twoPac,
+    gitUrl: "https://github.com/hassanidris/2pac-website",
+    previewUrl: "https://2pac-website.netlify.app/",
   },
   {
     title: "Miljonbemanning Website",
