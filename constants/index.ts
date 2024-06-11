@@ -6,6 +6,7 @@ import miljonbemanning from "@/public/assets/screenshot-hassanidris.github.png";
 import nesmaHolding from "@/public/assets/screenshot-nesma.github.png";
 import whoBrowseTheWeb from "@/public/assets/screenshot-whobrowsesthewebg7.png";
 import todo_app from "@/public/assets/screenshot-todo-website.vercel.png";
+import artemareon from "@/public/assets/Screenshot-space.png";
 
 // export const navLinks = [
 //   {
@@ -344,15 +345,15 @@ export const projectsData = [
     gitUrl: "https://github.com/group-6-d/to-do-app?tab=readme-ov-file",
     previewUrl: "https://to-do-app-git-main-g6d.vercel.app/",
   },
-  // {
-  //   title: "Nesma Holding Website",
-  //   description:
-  //     "In our project to develop a company website, I contributed from the design stage to building the HTML pages, ensuring a seamless blend of aesthetics and functionality using HTML, CSS, and JavaScript. My involvement was crucial in delivering a user-friendly and visually appealing website.",
-  //   tags: ["HTML", "CSS", "JavaScript"],
-  //   imageUrl: nesmaHolding,
-  //   gitUrl: "https://github.com/hassanidris/nesma-holding",
-  //   previewUrl: "https://hassanidris.github.io/nesma-holding/",
-  // },
+  {
+    title: "Artemareon Website",
+    description:
+      "I contributed from design to development, using HTML, CSS, JavaScript, GSAP, and three.js to create a visually appealing and user-friendly website.",
+    tags: ["Tailwind", "React.js", "GSAP", "Three.js"],
+    imageUrl: artemareon,
+    gitUrl: "https://github.com/hyperispace/artemareon",
+    previewUrl: "https://hyperispace.github.io/artemareon/",
+  },
   {
     title: "Miljonbemanning Website",
     description:
