@@ -309,7 +309,7 @@ export const projectsData = [
       "I contributed on the design process and building the frontend part, using HTML, and CSS to create a visually appealing and user-friendly website.",
     tags: ["Bootstrap", "Laravel", "Stripe"],
     imageUrl: theChord,
-    // gitUrl: "https://github.com/hyperispace/artemareon",
+    gitUrl: "https://github.com",
     previewUrl: "https://www.thechordjeddah.com/",
   },
   {
