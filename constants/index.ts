@@ -7,6 +7,9 @@ import nesmaHolding from "@/public/assets/screenshot-nesma.github.png";
 import whoBrowseTheWeb from "@/public/assets/screenshot-whobrowsesthewebg7.png";
 import todo_app from "@/public/assets/screenshot-todo-website.vercel.png";
 import artemareon from "@/public/assets/Screenshot-space.png";
+import nammaMarine from "@/public/assets/Screenshot-nammamarine.png";
+import defaf from "@/public/assets/Screenshot-defaf.png";
+import theChord from "@/public/assets/Screenshot-thechord.png";
 
 // export const navLinks = [
 //   {
@@ -300,6 +303,33 @@ export const Other_skill = [
 ];
 
 export const projectsData = [
+  {
+    title: "The Chord Resturant Website",
+    description:
+      "I contributed on the design process and building the frontend part, using HTML, and CSS to create a visually appealing and user-friendly website.",
+    tags: ["Bootstrap", "Laravel", "Stripe"],
+    imageUrl: theChord,
+    // gitUrl: "https://github.com/hyperispace/artemareon",
+    previewUrl: "https://www.thechordjeddah.com/",
+  },
+  {
+    title: "Namma Marines Services Website",
+    description:
+      "I contributed from design to development, using HTML, CSS, JavaScript, i18n, and React.js to create a visually appealing and user-friendly website.",
+    tags: ["Tailwind", "React.js", "i18n"],
+    imageUrl: nammaMarine,
+    gitUrl: "https://github.com/hassanidris/namma_marines",
+    previewUrl: "https://www.nammamarinesservices.com/",
+  },
+  {
+    title: "Defaf Logistics Website",
+    description:
+      "I contributed from design to development, using HTML, CSS, JavaScript, i18n, React.js and Thailwind Components to create a visually appealing and user-friendly website.",
+    tags: ["Tailwind", "React.js", "i18n"],
+    imageUrl: artemareon,
+    gitUrl: "https://github.com/hassanidris/Defaf",
+    previewUrl: "https://www.defaflogistics.com/",
+  },
   {
     title: "Artemareon Website",
     description:
