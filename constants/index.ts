@@ -357,15 +357,15 @@ export const projectsData = [
     gitUrl: "https://github.com/whobrowsesthewebg7/active-unity",
     previewUrl: "https://whobrowsesthewebg7.github.io/active-unity/",
   },
-  {
-    title: "HyperFlix Website",
-    description:
-      "I spearheaded the integration of the TMDB API for movie data, applied TailwindCSS for styling, and implemented Firebase for user authentication. My efforts were crucial in ensuring efficient data fetching, creating a responsive design, and securing user sessions, significantly contributing to the app’s user-friendly interface and robust functionality.",
-    tags: ["React", "JavaScript", "Tailwindcss", "Firebase"],
-    imageUrl: hyperFlix,
-    gitUrl: "https://github.com/hassanidris/react-hyperflix-movies-hub",
-    previewUrl: "https://hyperflix-site.netlify.app/",
-  },
+  // {
+  //   title: "HyperFlix Website",
+  //   description:
+  //     "I spearheaded the integration of the TMDB API for movie data, applied TailwindCSS for styling, and implemented Firebase for user authentication. My efforts were crucial in ensuring efficient data fetching, creating a responsive design, and securing user sessions, significantly contributing to the app’s user-friendly interface and robust functionality.",
+  //   tags: ["React", "JavaScript", "Tailwindcss", "Firebase"],
+  //   imageUrl: hyperFlix,
+  //   gitUrl: "https://github.com/hassanidris/react-hyperflix-movies-hub",
+  //   previewUrl: "https://hyperflix-site.netlify.app/",
+  // },
   {
     title: "Flappy Bird Clone",
     description:
