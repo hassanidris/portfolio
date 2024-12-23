@@ -235,6 +235,12 @@ export const Backend_skill = [
     height: 50,
   },
   {
+    skill_name: "Laravel",
+    Image: "/assets/laravel.png",
+    width: 50,
+    height: 50,
+  },
+  {
     skill_name: "Express.js",
     Image: "/assets/express.png",
     width: 50,
@@ -326,7 +332,7 @@ export const projectsData = [
     description:
       "I contributed from design to development, using HTML, CSS, JavaScript, i18n, React.js and Thailwind Components to create a visually appealing and user-friendly website.",
     tags: ["Tailwind", "React.js", "i18n"],
-    imageUrl: artemareon,
+    imageUrl: defaf,
     gitUrl: "https://github.com/hassanidris/Defaf",
     previewUrl: "https://www.defaflogistics.com/",
   },
