@@ -236,7 +236,7 @@ export const Backend_skill = [
   },
   {
     skill_name: "Laravel",
-    Image: "/assets/laravel.png",
+    Image: "/assets/Laravel.png",
     width: 50,
     height: 50,
   },
