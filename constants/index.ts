@@ -247,6 +247,18 @@ export const Backend_skill = [
     height: 50,
   },
   {
+    skill_name: "WordPress",
+    Image: "/assets/wordpress.png",
+    width: 50,
+    height: 50,
+  },
+  {
+    skill_name: "Webflow",
+    Image: "/assets/webflow.png",
+    width: 50,
+    height: 50,
+  },
+  {
     skill_name: "Firebase",
     Image: "/assets/Firebase.png",
     width: 40,
