@@ -331,7 +331,7 @@ export const projectsData = [
   {
     title: "Resume.AI - AI Resume & Cover Letter Builder",
     description:
-      "I designed and developed a full-stack resume and cover letter builder using Next.js 15, React 19, and Tailwind CSS. I contributed to both the UI/UX and logic by implementing dynamic form editing, Markdown preview, PDF generation, and ATS-optimized formatting. The app includes AI-powered cover letter generation using Gemini and CRUD operations for personalized user content, all integrated with Clerk for authentication and Prisma with PostgreSQL for data management.",
+      "Built a full-stack web app using Next.js 15, React 19, and Tailwind CSS. Designed the UI and implemented features like Markdown editing, PDF export, and AI-powered cover letter generation using Gemini. Integrated Clerk for auth and Prisma with PostgreSQL for data handling.",
     tags: ["Next.js", "JavaScript", "Gimini"],
     imageUrl: resumeAI,
     gitUrl: "https://github.com/hassanidris/resume-generater",
