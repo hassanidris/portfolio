@@ -11,6 +11,7 @@ import nammaMarine from "@/public/assets/Screenshot-nammamarine.png";
 import defaf from "@/public/assets/Screenshot-defaf.png";
 import theChord from "@/public/assets/Screenshot-thechord.png";
 import resumeAI from "@/public/assets/screenshot-resumeAI.png";
+import djscovery from "@/public/assets/screenshot-djscovery.png";
 
 // export const navLinks = [
 //   {
@@ -336,6 +337,15 @@ export const projectsData = [
     imageUrl: resumeAI,
     gitUrl: "https://github.com/hassanidris/resume-generater",
     previewUrl: "https://resume-generater-blue.vercel.app/",
+  },
+  {
+    title: "DJscovery Community Platform",
+    description:
+      "DJscovery is my final individual project at school—a full-stack DJ directory platform where users can search DJs by genre or location and explore their profiles. I independently planned, designed, and built the application, focusing on a modern, user-friendly interface using Next.js 15, React 19, and TailwindCSS, with backend functionality powered by Next.js API routes, Prisma, and PostgreSQL.",
+    tags: ["Next 15", "React 19", "Prisma"],
+    imageUrl: djscovery,
+    gitUrl: "https://github.com/hassanidris/djscovery",
+    previewUrl: "https://djscovery.vercel.app/",
   },
   {
     title: "The Chord Resturant Website",
