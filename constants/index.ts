@@ -265,6 +265,12 @@ export const Backend_skill = [
     height: 40,
   },
   {
+    skill_name: "Prisma ORM",
+    Image: "/assets/prisma.png",
+    width: 40,
+    height: 40,
+  },
+  {
     skill_name: "PostgreSQL",
     Image: "/assets/postger.png",
     width: 50,
