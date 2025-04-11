@@ -10,6 +10,7 @@ import artemareon from "@/public/assets/Screenshot-space.png";
 import nammaMarine from "@/public/assets/Screenshot-nammamarine.png";
 import defaf from "@/public/assets/Screenshot-defaf.png";
 import theChord from "@/public/assets/Screenshot-thechord.png";
+import resumeAI from "@/public/assets/screenshot-resumeAI.png";
 
 // export const navLinks = [
 //   {
@@ -328,12 +329,21 @@ export const Other_skill = [
 
 export const projectsData = [
   {
+    title: "Resume.AI - AI Resume & Cover Letter Builder",
+    description:
+      "I designed and developed a full-stack resume and cover letter builder using Next.js 15, React 19, and Tailwind CSS. I contributed to both the UI/UX and logic by implementing dynamic form editing, Markdown preview, PDF generation, and ATS-optimized formatting. The app includes AI-powered cover letter generation using Gemini and CRUD operations for personalized user content, all integrated with Clerk for authentication and Prisma with PostgreSQL for data management.",
+    tags: ["Next.js", "JavaScript", "Gimini"],
+    imageUrl: resumeAI,
+    gitUrl: "https://github.com/hassanidris/resume-generater",
+    previewUrl: "https://resume-generater-blue.vercel.app/",
+  },
+  {
     title: "The Chord Resturant Website",
     description:
       "I contributed on the design process and building the frontend part, using HTML, and CSS to create a visually appealing and user-friendly website.",
     tags: ["Bootstrap", "Laravel", "Stripe"],
     imageUrl: theChord,
-    gitUrl: "https://github.com",
+    gitUrl: "https://github.com/hassanidris/thechord-app",
     previewUrl: "https://www.thechordjeddah.com/",
   },
   {
