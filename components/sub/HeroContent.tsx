@@ -16,9 +16,9 @@ const HeroContent = () => {
     <motion.section
       initial="hidden"
       animate="visible"
-      className="z-[20] mx-auto mt-40 flex w-full flex-row items-center justify-center gap-8 px-0 md:max-w-[80rem] md:px-5 "
+      className="z-[20] mx-auto mt-40 flex w-full flex-row items-center justify-center gap-8 px-5 md:max-w-[80rem] md:px-5 "
     >
-      <div className="m-auto flex h-full w-full flex-col items-center justify-center gap-8 text-center md:items-start md:text-start">
+      <div className="m-auto flex h-full w-full flex-col items-center justify-center gap-8 text-center lg:items-start lg:text-start">
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box border border-[#7042f88b] px-[7px] py-[8px] opacity-[0.9]"
@@ -64,12 +64,12 @@ const HeroContent = () => {
         </motion.div>
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="max-w-[600px] text-center text-lg text-gray-400 md:text-start"
+          className="max-w-[600px] text-center text-lg text-gray-400 lg:text-start"
         >
           I&apos;m a Front End Developer with an eye on UI/UX. Check out my
           projects and skills.
         </motion.p>
-        <div className="flex items-center justify-center gap-4 sm:justify-start">
+        <div className="flex items-center justify-center gap-4 lg:justify-start">
           <PrimaryButton title="My Projects" herf="#projects" target="_self" />
           <PrimaryButton
             title="Download CV"
@@ -115,7 +115,7 @@ const HeroContent = () => {
       </div>
       <motion.div
         variants={slideInFromRight(0.8)}
-        className=" hidden h-full w-full justify-end md:flex"
+        className=" hidden h-full w-full justify-end lg:flex"
       >
         <Image
           src="/assets/hero-photo.png"
