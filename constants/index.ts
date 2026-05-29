@@ -12,6 +12,7 @@ import defaf from "@/public/assets/Screenshot-defaf.png";
 import theChord from "@/public/assets/Screenshot-thechord.png";
 import resumeAI from "@/public/assets/screenshot-resumeAI.png";
 import djscovery from "@/public/assets/screenshot-djscovery.png";
+import miniAiHr from "@/public/assets/screenshot-mini-hr.png";
 
 // export const navLinks = [
 //   {
@@ -186,6 +187,12 @@ export const Frontend_skill = [
     height: 50,
   },
   {
+    skill_name: "shadcn/ui",
+    Image: "/assets/shadcn.svg",
+    width: 50,
+    height: 50,
+  },
+  {
     skill_name: "JavaScript",
     Image: "/assets/js.png",
     width: 50,
@@ -284,6 +291,18 @@ export const Backend_skill = [
     width: 50,
     height: 50,
   },
+  {
+    skill_name: "Neon",
+    Image: "/assets/neon.svg",
+    width: 50,
+    height: 50,
+  },
+  {
+    skill_name: "Supabase",
+    Image: "/assets/supabase.svg",
+    width: 50,
+    height: 50,
+  },
 ];
 
 export const Design_skill = [
@@ -329,6 +348,15 @@ export const Other_skill = [
 ];
 
 export const projectsData = [
+  {
+    title: "Mini AI HR",
+    description:
+      "An AI-powered HR assistant that helps streamline hiring workflows. Built with Next.js and integrated with AI capabilities to assist with candidate screening and HR tasks.",
+    tags: ["Next.js", "TypeScript", "AI", "Supabase"],
+    imageUrl: miniAiHr,
+    gitUrl: "https://github.com/hassanidris/mini-ai-hr",
+    previewUrl: "https://mini-ai-hr-nine.vercel.app",
+  },
   {
     title: "Resume.AI - AI Resume & Cover Letter Builder",
     description:
