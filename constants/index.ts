@@ -11,7 +11,7 @@ import nammaMarine from "@/public/assets/Screenshot-nammamarine.png";
 import defaf from "@/public/assets/Screenshot-defaf.png";
 import theChord from "@/public/assets/Screenshot-thechord.png";
 import resumeAI from "@/public/assets/screenshot-resumeAI.png";
-import djscovery from "@/public/assets/screenshot-djscovery.png";
+import djscovery from "@/public/assets/screenshot-djscovery-1.png";
 import miniAiHr from "@/public/assets/screenshot-mini-hr.png";
 
 // export const navLinks = [
